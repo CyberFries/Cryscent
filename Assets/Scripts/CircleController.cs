@@ -52,9 +52,9 @@ public class CircleController : MonoBehaviour
 
         for (int i = 0; i < positions.Length; i++)
         {
-            float phi = 2 * math.PI / sides * i + (rotate * Mathf.Deg2Rad);
-            positions[i] = new Vector3(transform.position.x + radius * math.cos(phi),
-                                       transform.position.y + radius * math.sin(phi),
+            float phi = 2 * Mathf.PI / sides * i + (rotate * Mathf.Deg2Rad);
+            positions[i] = new Vector3(transform.position.x + radius * Mathf.Cos(phi),
+                                       transform.position.y + radius * Mathf.Sin(phi),
                                        0); //详情见宝石公式
         }
     }
