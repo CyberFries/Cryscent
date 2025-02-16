@@ -428,10 +428,9 @@ MonoBehaviour:
   sides: 4
   radius: 4
   rotate: 0
-  radiusConnection: 0
-  rotateL: 0
-  rotateR: 0
-  isConvex: 0
+  radiusConnection: 1
+  rotateL: 135
+  rotateR: 45
 --- !u!120 &1865703079
 LineRenderer:
   serializedVersion: 2
