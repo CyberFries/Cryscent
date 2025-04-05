@@ -431,6 +431,10 @@ MonoBehaviour:
   radiusConnection: 1
   rotateL: 135
   rotateR: 45
+  trackLength: 5
+  trackThickness: 0.1
+  trackMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  clearOldTracks: 1
 --- !u!120 &1865703079
 LineRenderer:
   serializedVersion: 2
@@ -482,7 +486,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.5415726
         inSlope: 0
         outSlope: 0
         tangentMode: 0
